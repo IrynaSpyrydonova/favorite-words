@@ -1,3 +1,108 @@
 .poo {
-  color:brown;
+  color: brown;
+}
+body {
+  background-image: url("Image/background.jpeg");
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+main {
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  margin: 40px 0px;
+  color: #5f1625;
+  font-weight: normal;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+.button {
+  background-color: #c0c0ca;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5px;
+  cursor: pointer;
+  width: 350px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #5f1625;
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+.button:focus {
+  outline: 0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.button:hover span {
+  padding-right: 35px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.view span:after {
+  content: "\f022";
+}
+
+.add span:after {
+  content: "\f271";
+}
+.exit span:after {
+  content: "\f274";
+}
+
+.remove span:after {
+  content: "\f272";
+}
+.replace span:after {
+  content: "\f122";
+}
+
+.search span:after {
+  content: "\f002";
+}
+
+.clear span:after {
+  content: "\f014";
+  color: red;
+}
+.clear:hover {
+  color: white;
+  background-color: #404040;
 }
