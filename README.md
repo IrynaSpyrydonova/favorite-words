@@ -7,7 +7,7 @@
 [![MIT License][license-shield]][license-url]
 </div>
 
-  <h3 align="center">Testing Project : Favorite</h3>
+  <h3 align="center">Testing Project : Favorite words</h3>
 
   <p align="center">
     Let's start to explore the project 🚀 
@@ -38,7 +38,7 @@
 
 ## About The Project
 
-![array-of-numbers](/image/testing-project.png)
+![favorite words](https://raw.githubusercontent.com/HazemBittar/favorite-words/master/image/favorite-words.PNG)
 
 This project was developed by five HYF students to practice writing simple JS functions. The workflow involved using Visual Studio debugger, Google Chrome debugger and Console. All functions have been tested using the Chai Assertion Library.
 
