@@ -5,5 +5,5 @@ const clearAllHandler = () => {
   debugger;
   words=[];
   
-  alert('clear all saved words');
+  alert('clear all saved string');
 };
