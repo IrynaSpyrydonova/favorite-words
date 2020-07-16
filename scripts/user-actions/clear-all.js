@@ -3,7 +3,7 @@ console.log('--- loading: clear-all.js');
 
 const clearAllHandler = () => {
   debugger;
-  ;
+  words=[];
   
-  alert('');
+  alert('clear all saved string');
 };
